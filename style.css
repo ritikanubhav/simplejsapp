@@ -7,7 +7,7 @@
     color:#1A4C39;
 }
 .container{
-    margin:50px auto;
+    margin:auto;
     max-width:60%;
     font-family: sans-serif;
     text-align:center;  
@@ -23,8 +23,15 @@ h1,h2{
     font-size:2em;
 
 }
+.page-header{
+    text-align: center;
+    margin:0.5em auto;
+}
 h2{
     font-size:4em;
+}
+span{
+    font-size:2em;
 }
 input{
     width:30%;
@@ -57,10 +64,11 @@ button:hover{
     border-color:#25976b;
 }
 p{
+    background-color:transparent;
     display: flex;
     font-size:1.2em;
     justify-content: center;
-    margin:1em;
+    margin:2em;
 }
 a{
     display: block;
